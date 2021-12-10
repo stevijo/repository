@@ -8,7 +8,8 @@ description: Fast, modern, secure VPN tunnel
 devices:
 - /dev/net/tun
 hassio_api: true
-image: ghcr.io/hassio-addons/wireguard/{arch}
+image: ghcr.io/hassio-addons/wireguard/{arch} 
+host_network: true
 init: false
 map:
 - ssl:rw
