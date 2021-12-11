@@ -68,4 +68,4 @@ schema:
     table: str?
 slug: wireguard
 url: https://github.com/stevijo/addon-wireguard
-version: 0.6.0-rpi
+version: 0.6.0-rpi-custom-finish
