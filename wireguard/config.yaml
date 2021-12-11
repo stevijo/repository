@@ -8,7 +8,7 @@ description: Fast, modern, secure VPN tunnel
 devices:
 - /dev/net/tun
 hassio_api: true
-image: ghcr.io/hassio-addons/wireguard/{arch} 
+image: ghcr.io/stevijo/wireguard/{arch} 
 host_network: true
 init: false
 map:
@@ -67,5 +67,5 @@ schema:
     public_key: str?
     table: str?
 slug: wireguard
-url: https://github.com/hassio-addons/addon-wireguard
-version: 0.6.0
+url: https://github.com/stevijo/addon-wireguard
+version: 0.6.0-rpi
